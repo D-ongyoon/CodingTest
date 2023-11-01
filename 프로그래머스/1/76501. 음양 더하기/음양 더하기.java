@@ -7,8 +7,8 @@ class Solution {
             if (signs[i] == false) {
                 absolutes[i] = absolutes[i] * -1;
             }
-            answer = Arrays.stream(absolutes).sum();
         }
+        answer = Arrays.stream(absolutes).sum();
         return answer;
     }
 }
